@@ -104,42 +104,42 @@ document.addEventListener('keydown', function(e) {
 // ==============================
 const galleryData = [
     {
-        img: 'images/surat_magang.jpg.jpg',
+        img: 'images/surat_magang.jpg',
         title: 'Surat Magang',
         desc: 'PT Kerinci Merangin Hydro'
     },
     {
-        img: 'images/sertifikat.jpg.jpg',
+        img: 'images/sertifikat.jpg',
         title: 'Sertifikat Magang',
         desc: 'Penghelesaian 6 Bulan'
     },
     {
-        img: 'images/penyerahan.jpg.jpg',
+        img: 'images/penyerahan.jpg',
         title: 'Penyerahan siswa magang',
         desc: '17-juli-2025'
     },
     {
-        img: 'images/penjemputan.jpg.jpg',
+        img: 'images/penjemputan.jpg',
         title: 'Penjemputan siswa magang',
         desc: '10-desember-2025'
     },
     {
-        img: 'images/foto_kegiatan.jpg.jpg',
+        img: 'images/foto_kegiatan.jpg',
         title: 'Aktivitas IT Support',
         desc: 'Konfigurasi Jaringan'
     },
     {
-        img: 'images/rakit_pc.jpg.jpg',
+        img: 'images/rakit_pc.jpg',
         title: 'Aktivitas IT Support',
         desc: 'Perakitan komputer'
     },
     {
-        img: 'images/monitoring_cctv.jpg.jpg',
+        img: 'images/monitoring_cctv.jpg',
         title: 'Aktivitas IT Support',
         desc: 'Monitoring CCTV'
     },
     {
-        img: 'images/foto_tunnel2.jpg.jpg',
+        img: 'images/foto_tunnel2.jpg',
         title: 'Aktivitas IT Support',
         desc: 'Penarikan kabel FO di Tunnel'
     }
