@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="id">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Ilyas Afriandi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ========================================= -->
+<!--         PARTICLE BACKGROUND                -->
+<!-- ========================================= -->
+
+<div class="particles-bg"></div>
+
+<!-- ========================================= -->
+
+<!-- ========================================= -->
+<!--            OPENING ANIMATION              -->
+<!-- ========================================= -->
+
+<div class="opening" id="opening">
+    <div class="opening-lines"></div>
+    
+    <div class="opening-logo">
+        <i class="fas fa-laptop-code"></i>
+    </div>
+    
+    <div class="opening-text">
+        <h1>ILYAS AFRIANDI</h1>
+        <p>Teknik Komputer & Jaringan</p>
+    </div>
+    
+    <div class="loading-bar">
+        <div class="loading-bar-fill"></div>
+    </div>
+</div>
+
+<!-- ========================================= -->
+
+    <!-- NAVIGATION -->
+    <nav>
+<!-- ========================================= -->
+<!--         THEME TOGGLE BUTTON                -->
+<!-- ========================================= -->
+
+<div class="theme-toggle" onclick="toggleTheme()" title="Ganti Tema">
+    <i class="fas fa-moon"></i>
+    <i class="fas fa-sun"></i>
+    <span id="theme-text">Gelap</span>
+</div>
+
+<!-- ========================================= -->
+    <div class="logo">IA</div>
+    
+    <!-- Menu Desktop -->
+    <ul class="nav-links">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#about">Tentang Saya</a></li>
+        <li><a href="#education">Pendidikan</a></li>
+        <li><a href="#skills">Keterampilan</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#gallery">Bukti</a></li>
+        <li><a href="#contact">Kontak</a></li>
+    </ul>
+    
+    <!-- Hamburger Icon -->
+    <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home" onclick="closeMenu()">Beranda</a>
+        <a href="#about" onclick="closeMenu()">Tentang Saya</a>
+        <a href="#education" onclick="closeMenu()">Pendidikan</a>
+        <a href="#skills" onclick="closeMenu()">Keterampilan</a>
+        <a href="#projects" onclick="closeMenu()">Proyek</a>
+        <a href="#gallery" onclick="closeMenu()">Bukti</a>
+        <a href="#contact" onclick="closeMenu()">Kontak</a>
+    </div>
+</nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero animate-on-scroll slide-up">
+        <div class="hero-content">
+            <p style="color: var(--accent); font-family: monospace; margin-bottom: 10px;">Halo, perkenalkan saya</p>
+            <h1>Ilyas Afriandi</h1>
+            <h2>Teknik Komputer & Jaringan</h2>
+            <p>Saya adalah siswa SMK 1 Sungai Penuh jurusan teknik komputer dan jaringan yang berpengalaman di bidang IT. Saya memiliki keterampilan dalam jaringan komputer,konfigurasi mikrotik,instalasi fiber optik, troubleshooting perangkat komputer, Siap berkontribusi dan berkembang di dunia profesional IT.</p>
+            <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
+            <a href="#about" class="btn">Lihat Profil</a>
+        </div>
+    </section>
+    <!-- ABOUT SECTION -->
+    <section id="about" class="animate-on-scroll slide-up">
+        <div class="section-header">
+            <h2>Tentang Saya</h2>
+            <p>KENALI SAYA LEBIH DEKAT</p>
+            <div class="line"></div>
+        </div>
+        <div class="about-container">
+            <img src="images/ilyas.jpg.jpg" style="width:100%; height:100%; object-fit:cover;">
+                <div class="img-frame">
+                    <i class="fas fa-user-graduate" style="font-size: 5rem;"></i>
+                    <br><br>
+                    <span>
+                </div>
+            </div>
+            <div class="about-text">
+                <h3>Siapa Saya?</h3>
+                <p>Saya <strong>Ilyas Afriandi</strong>, seorang siswa kelas 3 SMK jurusan <strong>Teknik Komputer dan Jaringan (TKJ)</strong>. Saya memiliki minat yang besar dalam dunia teknologi informasi, terutama dalam hal jaringan komputer dan pemeliharaan sistem.</p>
+                <p>Saya memiliki pengalaman di PT Kerinci Merangin Hydro pada divisi IT,dimana saya terlibat dalam instalasi jaringan LAN,Konfigurasi Mikrotik,Monitoring server,serta instalasi dan splicing kabel fiber optik.Pengalaman tersebut membantu saya memahami bagaimana sistem IT bekerja secara nyata di lingkungan.</p>
+                
+                <!-- FAMILY CARD -->
+                <div class="family-card">
+                    <h4><i class="fas fa-users"></i> Data Keluarga</h4>
+                    <div class="family-info">
+                        <div>
+                            <i class="fas fa-user-tie"></i>
+                            <span><strong>Ayah:</strong> [Amrul]</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-female"></i>
+                            <span><strong>Ibu:</strong> [Mulyani]</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span><strong>Alamat:</strong> [Sungai penuh,provinsi jambi]</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-birthday-cake"></i>
+                            <span><strong>TTL:</strong> [Sungai penuh,23-april-2008]</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- ========================================= -->
+<!--         PENDIDIKAN SECTION                -->
+<!-- ========================================= -->
+
+<section id="education" class="animate-on-scroll slide-up">
+    <div class="section-header animate-on-scroll slide-up">
+        <h2>Pendidikan</h2>
+        <p>LATAR BELAKANG PENDIDIKAN</p>
+        <div class="line"></div>
+    
+    
+    <div class="education-grid">
+        
+        <!-- KARTU 1: SMK -->
+        <div class="education-card animate-on-scroll slide-up delay-1" onclick="openEduModal(0)">
+            <i class="fas fa-school"></i>
+            <h3>SMK Negeri 1 Sungai Penuh</h3>
+            <span class="year">2022 - 2025</span>
+            <p>Jurusan TKJ dengan fokus pada jaringan komputer, troubleshooting, perakitan komputer,dan Konfigurasi Mikrotik.</p>
+        </div>
+        
+        <!-- KARTU 2: SMP -->
+        <div class="education-card animate-on-scroll slide-up delay-2" onclick="openEduModal(1)">
+            <i class="fas fa-school"></i>
+            <h3>SMP Negeri 3 Sungai Penuh</h3>
+            <span class="year">2019 - 2022</span>
+            <p>Menyelesaikan pendidikan menengah pertama dengan prestasi yang memuaskan.</p>
+        </div>
+        
+        <!-- KARTU 3: SD -->
+        <div class="education-card animate-on-scroll slide-up delay-3" onclick="openEduModal(2)">
+            <i class="fas fa-school"></i>
+            <h3>SDN 011 Desa Gedang</h3>
+            <span class="year">2014-2019</span>
+            <p>Menyelesaikan pendidikan dasar pertama dengan prestasi yang memuaskan.</p>
+        </div>
+        
+    </div>
+</section>
+
+<!-- ========================================= -->
+<!--            MODAL EDUCATION                -->
+<!-- ========================================= -->
+
+<div id="eduModal" class="edu-modal">
+    <div class="edu-modal-content">
+        <span class="edu-modal-close" onclick="closeEduModal()">&times;</span>
+        
+        <div class="edu-modal-header">
+            <div class="edu-modal-icon">
+                <i id="eduModalIcon" class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="edu-modal-title">
+                <h3 id="eduModalTitle">SMK Teknik Komputer & Jaringan</h3>
+                <span id="eduModalYear" class="year">2022 - 2024</span>
+            </div>
+        </div>
+        
+        <div class="edu-modal-body">
+            <p id="eduModalDesc">
+                Jurusan TKJ dengan fokus pada jaringan komputer, troubleshooting, dan pemeliharaan IT.
+            </p>
+            
+            <h4>Prestasi & Kegiatan</h4>
+            <ul id="eduModalList">
+                <li>Lulus dengan nilai rata-rata yang memuaskan</li>
+                <li>Aktif dalam kegiatan ekstrakurikuler IT Club</li>
+                <li>Menjadi asisten laboratorium komputer</li>
+                <li>Menyelesaikan proyek akhir jaringan LAN</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="animate-on-scroll slide-up">
+        <div class="section-header animate-on-scroll slide-up">
+            <h2>Keterampilan</h2>
+            <p>KEMAMPUAN TEKNIS SAYA</p>
+            <div class="line"></div>
+        </div>
+        
+        <div class="skills-container">
+            <div class="skill-category animate-on-scroll zoom-in delay-1">
+                <h3><i class="fas fa-network-wired"></i> Jaringan</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Splicing FO</span>
+                    <span class="skill-tag">LAN/WAN</span>
+                    <span class="skill-tag">WiFi Config</span>
+                    <span class="skill-tag">IP Address</span>
+                    <span class="skill-tag">Mikrotik Dasar</span>
+                </div>
+            </div>
+            <div class="skill-category animate-on-scroll zoom-in delay-2">
+                <h3><i class="fas fa-desktop"></i> Hardware</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Perakitan PC</span>
+                    <span class="skill-tag">Troubleshooting</span>
+                    <span class="skill-tag">Install OS</span>
+                    <span class="skill-tag">Printer Setup</span>
+                </div>
+            </div>
+            <div class="skill-category animate-on-scroll zoom-in delay-3">
+                <h3><i class="fas fa-code"></i> Software</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Windows</span>
+                    <span class="skill-tag">Linux Dasar</span>
+                    <span class="skill-tag">MS Office</span>
+                    <span class="skill-tag">Antivirus</span>
+                </div>
+            </div>
+            <div class="skill-category animate-on-scroll zoom-in delay-4">
+                <h3><i class="fas fa-tools"></i> Tools</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Fusion Splicer</span>
+                    <span class="skill-tag">Putty</span>
+                    <span class="skill-tag">TeamViewer</span>
+                    <span class="skill-tag">Winbox</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+<section id="projects" class="animate-on-scroll slide-up">
+    <div class="section-header animate-on-scroll slide-up">
+        <h2>Proyek</h2>
+        <p>PROYEK YANG PERNAH DIBUAT</p>
+        <div class="line"></div>
+    </div>
+    <div class="projects-grid">
+        
+        <!-- PROYEK 1 -->
+        <div class="project-card animate-on-scroll slide-left delay-1">
+            <div class="project-image" style="background-image: url('https://www.kanakomputer.com/wp-content/uploads/2023/10/Tips-untuk-Memilih-Kabel-UTP-yang-Tepat.jpg');">
+                <div class="project-icon">
+                    <i class="fas fa-network-wired"></i>
+                </div>
+            </div>
+            <div class="project-content">
+                <h3>Instalasi Jaringan LAN Kantor</h3>
+                <p>Membuat instalasi jaringan kabel (LAN) untuk 6 unit komputer di kantor PT Kerinci Merangin Hydro. Menggunakan kabel UTP Cat6.</p>
+                <div class="project-tech">
+                    <span>UTP Cable</span>
+                    <span>Switch 24 Port</span>
+                    <span>RJ45</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROYEK 2 -->
+        <div class="project-card animate-on-scroll slide-up delay-2">
+            <div class="project-image" style="background-image: url('https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,f_auto,q_auto:best,w_640/v1634025439/01g73g64mtqyz9pe87nzzddnng.jpg'); background-size: cover; background-position: center;">
+                <div class="project-icon">
+                    <i class="fas fa-wifi"></i>
+                </div>
+            </div>
+            <div class="project-content">
+                <h3>Konfigurasi Jaringan</h3>
+                <p>Melakukan konfigurasi Mikrotik meliputi NAT,DHCP Server,manajemen bandwidth,dan pengamanan jaringan firewall.</p>
+                <div class="project-tech">
+                    <span>Mikrotik</span>
+                    <span>Winbox</span>
+                    <span>WiFi</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROYEK 3 -->
+        <div class="project-card animate-on-scroll slide-right delay-3">
+            <div class="project-image" style="background-image: url('http://teknody.com/image/catalog/teknody/Category/Blog/Perangkat%20Keras/rakit.jpg'); background-size: cover; background-position: center;">
+                <div class="project-icon">
+                    <i class="fas fa-desktop"></i>
+                </div>
+            </div>
+            <div class="project-content">
+                <h3>Perakitan Komputer</h3>
+                <p>Merakit komputer untuk kebutuhan staff baru di kantor. Mulai dari pemilihan komponen, perakitan, instalasi OS, hingga driver.</p>
+                <div class="project-tech">
+                    <span>MS Office</span>
+                    <span>Windows 10/11</span>
+                    <span>Driver</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROYEK 4 -->
+        <div class="project-card animate-on-scroll slide-right delay-4">
+            <div class="project-image" style="background-image: url('https://www.exabytes.co.id/blog/wp-content/uploads/2022/08/apa-itu-komputer-server-1536x800.webp'); background-size: cover; background-position: center;">
+                <div class="project-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+            </div>
+            <div class="project-content">
+                <h3>Monitoring Server & Jaringan</h3>
+                <p>Membantu tim IT dalam memantau performa server dan jaringan internet kantor PLTA.</p>
+                <div class="project-tech">
+                    <span>Server Monitoring</span>
+                    <span>Ping Test</span>
+                    <span>Troubleshooting</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROYEK 5 -->
+        <div class="project-card animate-on-scroll slide-right delay-5">
+            <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500');">
+                <div class="project-icon">
+                    <i class="fas fa-project-diagram"></i>
+                </div>
+            </div>
+            <div class="project-content">
+                <h3>Instalasi kabel Fiber Optik</h3>
+                <p>Menarik kabel Fiber Optik serta splicing kabel Fiber Optik di area kantor.</p>
+                <div class="project-tech">
+                    <span>Fusion Splicer</span>
+                    <span>Fiber Optik</span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+  <!-- DOKUMENTASI & SERTIFIKAT SECTION -->
+<section id="gallery" class="animate-on-scroll slide-up"></section>
+    <div class="section-header">
+        <h2>Dokumentasi & Sertifikat</h2>
+        <p>BUKTI PORTFOLIO SAYA</p>
+        <div class="line"></div>
+    </div>
+   <!-- MODAL GALLERY -->
+<div id="modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.95); z-index: 9999; align-items: center; justify-content: center;">
+    
+    <!-- Tombol Close -->
+    <span onclick="closeModal()" style="position: absolute; top: 20px; right: 30px; font-size: 40px; color: white; cursor: pointer;">&times;</span>
+    
+    <!-- Tombol Prev -->
+    <span onclick="changeSlide(-1)" style="position: absolute; top: 50%; left: 20px; transform: translateY(-50%); font-size: 40px; color: white; cursor: pointer;">&#10094;</span>
+    
+    <!-- Tombol Next -->
+    <span onclick="changeSlide(1)" style="position: absolute; top: 50%; right: 20px; transform: translateY(-50%); font-size: 40px; color: white; cursor: pointer;">&#10095;</span>
+    
+    <!-- Gambar -->
+    <img id="modal-img" src="" style="max-width: 90%; max-height: 85%; border-radius: 10px; box-shadow: 0 20px 50px rgba(0,0,0,0.5);">
+    
+    <!-- Caption -->
+    <div style="position: absolute; bottom: 30px; background: rgba(10,25,47,0.9); padding: 15px 30px; border-radius: 10px; text-align: center; border: 1px solid #64ffda;">
+        <h3 id="modal-title" style="color: #64ffda; margin: 0 0 5px 0;">Judul</h3>
+        <p id="modal-desc" style="color: #8892b0; margin: 0;">Deskripsi</p>
+    </div>
+</div>
+</div>
+    
+    <!-- FOTO-FOTO -->
+    <h3 style="color: var(--text-primary); margin-bottom: 20px; text-align: center;">Foto Dokumentasi</h3>
+    <div class="gallery-grid">
+        <div class="gallery-item" onclick="openModal(0)">
+            <img src="images/surat_magang.jpg.jpg" alt="Surat Magang">
+            <div class="gallery-overlay">
+                <h4>Surat Magang</h4>
+                <p>PT Kerinci Merangin Hydro</p>
+            </div>
+        </div>
+        <div class="gallery-item" onclick="openModal(1)">
+            <img src="images/sertifikat.jpg.jpg" alt="Sertifikat">
+            <div class="gallery-overlay">
+                <h4>Sertifikat Magang</h4>
+                <p>Penghelesaian 6 Bulan</p>
+            </div>
+        </div>
+        <div class="gallery-item" onclick="openModal(2)">
+            <img src="images/penyerahan.jpg.jpg" alt="Penyerahan siswa magang">
+            <div class="gallery-overlay">
+                <h4>Penyerahan siswa magang</h4>
+                <p>Tanggal 17 juli 2025</p>
+            </div>
+        </div>
+        <div class="gallery-item" onclick="openModal(3)">
+            <img src="images/penjemputan.jpg.jpg" alt="Penjemputan siswa magang">
+            <div class="gallery-overlay">
+                <h4>Penjemputan siswa magang</h4>
+                <p>Tanggal 10 desember 2025</p>
+            </div>
+        </div>
+         <div class="gallery-item" onclick="openModal(4)">
+            <img src="images/foto_kegiatan.jpg.jpg" alt="Aktivitas IT Support">
+            <div class="gallery-overlay">
+                <h4>Aktivitas IT Support</h4>
+                <p>Konfigurasi Jaringan</p>
+            </div>
+        </div>
+        <div class="gallery-item" onclick="openModal(5)">
+            <img src="images/rakit_pc.jpg.jpg" alt="Aktivitas IT Support">
+            <div class="gallery-overlay">
+                <h4>Aktivitas IT Support</h4>
+                <p>Merakit pc</p>
+            </div>
+        </div>
+        <div class="gallery-item" onclick="openModal(6)">
+            <img src="images/monitoring_cctv.jpg.jpg" alt="Aktivitas IT Support">
+            <div class="gallery-overlay">
+                <h4>Aktivitas IT Support</h4>
+                <p>Monitoring CCTV</p>
+            </div>
+        </div>
+         <div class="gallery-item" onclick="openModal(7)">
+            <img src="images/foto_tunnel2.jpg.jpg" alt="Aktivitas IT Support">
+            <div class="gallery-overlay">
+                <h4>Aktivitas IT Support</h4>
+                <p>Penarikan kabel FO di Tunnel</p>
+    </div>
+        </div>
+    </div>
+<!-- ========================================= -->
+<!--         DOKUMEN LAPORAN & PRESENTASI     -->
+<!-- ========================================= -->
+
+<section id="documents" class="documents-section">
+    <div class="documents-header">
+        <h2>Hasil akhir magang</h2>
+        <p>DOKUMEN DAN PRESENTASI</p>
+        <div class="line"></div>
+    </div>
+    
+    <div class="documents-grid">
+        
+        <!-- Laporan Magang -->
+     <div class="document-card">
+            <div class="document-icon">
+                <i class="fas fa-file-word"></i>
+            </div>
+            <h3>Lihat file</h3>
+            <p>Hasil laporan magang dalam format PDF.</p>
+            <a href="file/laporan-magang.pdf" download class="document-btn">
+                <i class="fas fa-eye"></i>Lihat File
+            </a>
+        </div>
+        
+        <!-- Presentasi Magang -->
+           <div class="document-card">
+            <div class="document-icon">
+                <i class="fas fa-file-powerpoint"></i>
+            </div>
+            <h3>Lihat file</h3>
+            <p>Hasil presentasi magang dalam format PDF.</p>
+            <a href="file/presentasi-magang.pdf" download class="document-btn">
+                <i class="fas fa-eye"></i>Lihat File
+            </a>
+        </div>
+        
+     
+        
+    </div>
+</section>
+
+<!-- MODAL PDF VIEWER -->
+<div id="pdfModal" class="pdf-modal">
+    <div class="pdf-modal-content">
+        <button class="pdf-modal-close" onclick="closePdfModal()">&times;</button>
+        <iframe id="pdfFrame" src="" allowfullscreen></iframe>
+    </div>
+</div>
+
+<!-- ========================================= -->    
+        
+
+
+
+
+    <!-- SOCIAL MEDIA SECTION -->
+    <section id="social">
+        <div class="section-header">
+            <h2>Sosial Media</h2>
+            <p>IKUTI SAYA DI MEDIA SOSIAL</p>
+            <div class="line"></div>
+        </div>
+        <div class="social-container">
+            <div class="social-links">
+                <a href="https://www.instagram.com/iyuih_afrnd23?igsh=eTNlOWwzcXh0NTZr" class="social-link" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/ilyas.afriandi.56?locale=id_ID" class="social-link" title="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.tiktok.com/@ilyasafriandi?is_from_webapp=1&sender_device=pc" class="social-link" title="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="https://www.youtube.com/@ilyasgaming223" class="social-link" title="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#" class="social-link" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="social-link" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+<!-- KONTAK SECTION -->
+<section id="contact" class="animate-on-scroll slide-up">
+    <div class="section-header">
+        <h2>Kontak</h2>
+        <p>HUBUNGI SAYA</p>
+        <div class="line"></div>
+    </div>
+    <div class="contact-container">
+        
+        <!-- INFORMASI KONTAK -->
+        <div class="contact-info">
+            <h3>Informasi Kontak </h3>
+            <p style="margin-bottom: 30px; line-height: 1.8;">
+                Jika Anda tertarik dengan profil saya atau memiliki pertanyaan, 
+                silakan hubungi melalui kontak di bawah ini:
+            </p>
+            
+            <!-- WHATSAPP -->
+            <a href="https://wa.me/6282352386133" target="_blank" class="contact-item">
+                <div class="contact-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="contact-text">
+                    <h4>WhatsApp</h4>
+                    <p>+62 823 5238 6133</p>
+                </div>
+            </a>
+            
+            <!-- EMAIL -->
+            <a href="mailto:ilyasafrian23@email.com" target="_blank" class="contact-item">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-text">
+                    <h4>Email</h4>
+                    <p>ilyasafrian23@email.com</p>
+                </div>
+            </a>
+            
+            <!-- LOKASI -->
+            <a href="https://maps.app.goo.gl/8eW2zKWCPxFUKW367" target="_blank" class="contact-item">
+                <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-text">
+                    <h4>Lokasi</h4>
+                    <p>Sungai penuh, Jambi, Indonesia</p>
+                </div>
+            </a>
+            
+        </div>
+        
+        <!-- FORMULIR PESAN -->
+        <div class="contact-form">
+            <form>
+                <div class="form-group">
+                    <label>Nama</label>
+                    <input type="text" placeholder="Masukkan nama Anda">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="Masukkan email Anda">
+                </div>
+                <div class="form-group">
+                    <label>Pesan</label>
+                    <textarea placeholder="Tulis pesan Anda..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Kirim Pesan</button>
+            </form>
+        </div>
+        
+    </div>
+</section>
+    
+    <!-- FOOTER -->
+    <footer class="animate-on-scroll slide-up">
+        <p><i class="fas fa-code"></i> Dibuat oleh Ilyas Afriandi</p>
+        <p>&copy; 2025 Portofolio - Teknik Komputer & Jaringan</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/iyuih_afrnd23?igsh=eTNlOWwzcXh0NTZr" target="_blank" class="social-link" style="width: 40px; height: 40px; font-size: 1rem;">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://web.facebook.com/ilyas.afriandi.56?locale=id_ID&_rdc=1&_rdr" class="social-link" style="width: 40px; height: 40px; font-size: 1rem;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </div>
+    </footer>
+
+
+</script>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
