@@ -247,41 +247,7 @@ document.addEventListener('keydown', function(e) {
     }
 });
 
-// =========================================
-//         ANIMASI SAAT SCROLL
-// =========================================
 
-// Fungsi untuk mendeteksi scroll
-function revealOnScroll() {
-    // Ambil semua element dengan class animate-on-scroll
-    const elements = document.querySelectorAll('.animate-on-scroll');
-    
-    // Loop melalui setiap element
-    elements.forEach((element) => {
-        // Dapatkan posisi element dari atas layar
-        const elementTop = element.getBoundingClientRect().top;
-        const windowHeight = window.innerHeight;
-        
-        // Jika element terlihat di layar (100px sebelum muncul)
-        if (elementTop < windowHeight - 100) {
-            // Tambahkan class visible
-            element.classList.add('visible');
-        }
-    });
-}
-
-// Jalankan saat page load
-window.addEventListener('load', revealOnScroll);
-
-// Jalankan saat scroll
-window.addEventListener('scroll', revealOnScroll);
-
-// Juga jalankan saat resize window
-window.addEventListener('resize', revealOnScroll);
-
-// =========================================
-//    AKHIR ANIMASI SCROLL
-// =========================================
 
 // =========================================
 //         ANIMASI OPENING
